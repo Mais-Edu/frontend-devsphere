@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme {
+  /* RESET */
+
+  --color-*: initial;
+
+  /* MAIN COLORS */
+
+  /* background-color */
+  --color-midnight-900: #0f172a;
+
+  /* cards and containers */
+  --color-slate-800: #1e293b;
+
+  /* border and secondary elements */
+  --color-slate-700: #334155;
+
+  /* inputs and interactive elements */
+  --color-slate-600: #475569;
+
+  /* HIGHLIGHT COLORS */
+
+  /* main blue */
+  --color-blue-500: #3b82f6;
+
+  /* main green */
+  --color-green-500: #22c55e;
+
+  /* main yellow */
+  --color-yellow-500: #eab308;
+
+  /* warning */
+  --color-yellow-400: #facc15;
+
+  /* orange */
+  --color-orange-500: #f97316;
+
+  /* TEXT COLORS */
+
+  /* main text */
+  --color-white: #ffffff;
+
+  /* subtext */
+  --color-slate-300: #cbd5e1;
+
+  /* aux text/ labels */
+  --color-slate-400: #94a3b8;
+
+  /* GRADIENT COLORS */
+
+  --gradient-logo: linear-gradient(90deg, #3b82f6, #9333ea);
+  --gradient-hero: linear-gradient(90deg, #60a5fa, #a78bfa);
+  --gradient-cards: linear-gradient(90deg, #eab308, #f97316);
+  --gradient-progress: linear-gradient(90deg, #2563eb, #9333ea);
+
+  /* FONT HEADING */
+
+  --font-heading: "Outfit", sans-serif;
+}
+
+body {
+  background: var(--color-midnight-900);
+  color: white;
+  font-family: "Inter", sans-serif;
+}

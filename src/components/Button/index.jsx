@@ -1,8 +1,8 @@
-const Button = ({ children, className }) => {
+const Button = ({ href, className, children }) => {
     return ( 
-        <button className={`rounded-xl text-center ${className}`}>
+        <a href={href} className={`rounded-xl text-center ${className}`}>
             {children}
-        </button>
+        </a>
      );
 }
  

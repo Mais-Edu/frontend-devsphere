@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import SiteLayout from "../SiteLayout";
-import HomePage from "../pages/Home{age";
+import HomePage from "../pages/HomePage";
 import NotFoundPage from "../pages/NotFoundPage";
 
 const Paths = () => {

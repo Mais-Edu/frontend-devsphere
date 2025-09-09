@@ -1,11 +1,11 @@
 import WelcomeSection from '../../components/WelcomeSection';
 
 const TestPage = () => {
-    return ( 
+    return (
         <>
-        <WelcomeSection />
+            <WelcomeSection textH1={'Plataforma educacional'} textSpanH1={'para comunidade dev'} textP={"Conecte-se com desenvolvedores, aprenda com cursos especializados e participe de desafios mensais. Construa sua carreira tech em uma comunidade colaborativa."} hrefButton={"#"} textButton={"Começar jornada"} />
         </>
-     );
+    );
 }
- 
+
 export default TestPage;

@@ -1,6 +1,6 @@
 import Button from "../Button";
 
-const WelcomeSection = ({textH1, textSpanH1, textP, hrefButton, textButton}) => {
+const WelcomeHome = ({textH1, textSpanH1, textP, hrefButton, textButton}) => {
     return (
         <section className="flex justify-center items-center">
             <section className="w-[45rem] py-[5rem] flex flex-col justify-center items-center text-center gap-5">
@@ -13,4 +13,4 @@ const WelcomeSection = ({textH1, textSpanH1, textP, hrefButton, textButton}) => 
     );
 };
 
-export default WelcomeSection;
+export default WelcomeHome;

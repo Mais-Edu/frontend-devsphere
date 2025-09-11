@@ -1,38 +1,38 @@
+import { FooterAccount } from "../../db/FooterAccount";
+import { FooterLinks } from "../../db/FooterLinks";
+
+import FooterContainer from "./FooterContainer";
+import FooterHeader from "./FooterHeader";
+import FooterList from "./FooterList";
+import FooterTitle from "./FooterTitle";
+
+
+
 const Footer = () => {
-    return ( 
+    return (
         <footer className="border-t border-slate-700 bg-slate-800 mt-auto">
             <div className="container mx-auto px-4 py-8 max-w-6xl">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {/* Informações */}
-                    <div className="space-y-4">
-                        <h3 className="text-lg font-semibold text-white">DevSphere</h3>
+                    <FooterContainer>
+                        <FooterHeader title="DevSphere" />
                         <p className="text-slate-300 text-sm leading-relaxed">
-                            Plataforma educacional para comunidade de desenvolvedores. 
+                            Plataforma educacional para comunidade de desenvolvedores.
                             Conecte-se, aprenda e cresça em sua carreira tech.
                         </p>
-                    </div>
+                    </FooterContainer>
 
                     {/* Links Úteis */}
-                    <div className="space-y-4">
-                        <h4 className="text-md font-medium text-white">Links Úteis</h4>
-                        <ul className="space-y-2 text-sm">
-                            <li><a href="#" className="text-slate-300 hover:text-blue-400 transition-colors">Início</a></li>
-                            <li><a href="#" className="text-slate-300 hover:text-blue-400 transition-colors">Cursos</a></li>
-                            <li><a href="#" className="text-slate-300 hover:text-blue-400 transition-colors">Forum</a></li>
-                            <li><a href="#" className="text-slate-300 hover:text-blue-400 transition-colors">Trilhas</a></li>
-                        </ul>
-                    </div>
+                    <FooterContainer>
+                        <FooterTitle title="Links Úteis" />
+                    <FooterList list={FooterLinks} />
+                    </FooterContainer>
 
                     {/* Conta */}
-                    <div className="space-y-4">
-                        <h4 className="text-md font-medium text-white">Conta</h4>
-                        <ul className="space-y-2 text-sm">
-                            <li><a href="#" className="text-slate-300 hover:text-blue-400 transition-colors">Login</a></li>
-                            <li><a href="#" className="text-slate-300 hover:text-blue-400 transition-colors">Registre-se</a></li>
-                            <li><a href="#" className="text-slate-300 hover:text-blue-400 transition-colors">Perfil</a></li>
-                            <li><a href="#" className="text-slate-300 hover:text-blue-400 transition-colors">Contato</a></li>
-                        </ul>
-                    </div>
+                    <FooterContainer>
+                        <FooterTitle title="Conta" />
+                      <FooterList list={FooterAccount} />
+                    </FooterContainer>
                 </div>
 
                 {/* Copyright */}
@@ -42,7 +42,7 @@ const Footer = () => {
                             &copy; {new Date().getFullYear()} DevSphere. Todos os direitos reservados.
                         </p>
                         <p className="text-slate-400 text-sm mt-2 md:mt-0">
-                            Desenvolvido pela equipe <span className="text-blue-400 font-medium">Mais-Edu</span>
+                            Desenvolvido pela equipe <span className="text-slate-600 font-semibold">Mais-Edu</span>
                         </p>
                     </div>
                     <div className="flex flex-col md:flex-row justify-center items-center mt-4 space-y-2 md:space-y-0 md:space-x-6">
@@ -52,7 +52,7 @@ const Footer = () => {
                 </div>
             </div>
         </footer>
-     );
+    );
 }
- 
+
 export default Footer;

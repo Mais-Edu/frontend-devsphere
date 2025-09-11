@@ -11,7 +11,7 @@ const Statics = ({ target, label, colorClass }) => {
                 />
                 +
             </h3>
-            <p className="text-xl text-[#9CA3AF] mt-2">{label}</p>
+            <p className="text-xl text-slate-500 mt-2">{label}</p>
         </div>
     );
 };

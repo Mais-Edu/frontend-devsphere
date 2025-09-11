@@ -5,7 +5,7 @@ const NavItem = ({ to, children }) => (
     <NavLink
       to={to}
       className={({ isActive }) =>
-        `text-sm text-[#D1D5DB] hover:text-blue-300 transition-colors duration-200 ${
+        `text-sm text-slate-300 hover:text-blue-300 transition-colors duration-200 ${
           isActive ? 'text-white font-bold' : ''
         }`
       }

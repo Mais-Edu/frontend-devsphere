@@ -39,7 +39,7 @@ const Footer = () => {
                 <div className="border-t border-slate-700 mt-8 pt-6">
                     <div className="flex flex-col md:flex-row justify-between items-center">
                         <p className="text-slate-400 text-sm">
-                            © 2025 DevSphere. Todos os direitos reservados.
+                            &copy; {new Date().getFullYear()} DevSphere. Todos os direitos reservados.
                         </p>
                         <p className="text-slate-400 text-sm mt-2 md:mt-0">
                             Desenvolvido pela equipe <span className="text-blue-400 font-medium">Mais-Edu</span>

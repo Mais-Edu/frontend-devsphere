@@ -59,6 +59,25 @@
   --font-heading: "Outfit", sans-serif;
 }
 
+/* Gradient utilities */
+@layer utilities {
+  .bg-gradient-progress {
+    background: var(--gradient-progress);
+  }
+
+  .bg-gradient-logo {
+    background: var(--gradient-logo);
+  }
+
+  .bg-gradient-hero {
+    background: var(--gradient-hero);
+  }
+
+  .bg-gradient-cards {
+    background: var(--gradient-cards);
+  }
+}
+
 body {
   background: var(--color-midnight-900);
   color: white;

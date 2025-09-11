@@ -1,4 +1,4 @@
-import { links } from "../../data/navigation";
+import { links } from "../../db/navigation";
 import NavItem from "../NavItem";
 import UserArea from "../UserArea";
 

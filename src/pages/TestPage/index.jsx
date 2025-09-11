@@ -1,10 +1,12 @@
 import CallToRegister from "../../components/CallToRegister";
-import Header from "../../components/Header";
+import InNumbers from "../../components/InNumbers";
+import WelcomeHome from "../../components/WelcomeHome";
 
 const TestPage = () => {
     return ( 
         <>
-        <Header />
+        <WelcomeHome />
+        <InNumbers />
         <CallToRegister />
         </>
      );

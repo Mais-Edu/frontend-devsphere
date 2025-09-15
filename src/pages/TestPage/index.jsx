@@ -1,15 +1,11 @@
-import CallToRegister from "../../components/CallToRegister";
-import InNumbers from "../../components/InNumbers";
-import WelcomeHome from "../../components/WelcomeHome";
+import NextSteps from "../../components/NextSteps";
 
 const TestPage = () => {
-    return ( 
+    return (
         <>
-        <WelcomeHome />
-        <InNumbers />
-        <CallToRegister />
+            <NextSteps />
         </>
-     );
+    );
 }
- 
+
 export default TestPage;

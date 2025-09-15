@@ -4,14 +4,14 @@ import WelcomeHome from "../../components/WelcomeHome";
 import HighlightHome from "../../components/HighlightHome";
 
 const TestPage = () => {
-    return ( 
+    return (
         <>
-        <WelcomeHome />
-        <InNumbers />
-        <HighlightHome />
-        <CallToRegister />
+            <WelcomeHome />
+            <InNumbers />
+            <HighlightHome />
+            <CallToRegister />
         </>
-     );
+    );
 }
- 
+
 export default TestPage;

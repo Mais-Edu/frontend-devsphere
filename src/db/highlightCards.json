@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "icon": "/assets/cursos-icon.svg",
+    "title": "Cursos",
+    "description": "Aprenda com cursos estruturados e atualizados, desde o básico até conceitos avançados.",
+    "path": "#",
+    "color": "linear-gradient(90deg, #3B82F6, #234C90)",
+    "pageCall": "Ver cursos disponíveis"
+  },
+  {
+    "id": 2,
+    "icon": "/assets/forum-icon.svg",
+    "title": "Fórum",
+    "description": "Participe de discussões, tire dúvidas e compartilhe conhecimento com outros devs.",
+    "path": "#",
+    "color": "linear-gradient(90deg, #A855F7, #9333EA)",
+    "pageCall": "Explorar comunidade"
+  },
+  {
+    "id": 3,
+    "icon": "/assets/desafios-icon.svg",
+    "title": "Desafios mensais",
+    "description": "Pratique com projetos reais e compete com outros desenvolvedores em rankings.",
+    "path": "#",
+    "color": "linear-gradient(90deg, #22C55E, #16A34A)",
+    "pageCall": "Ver desafios"
+  }
+]

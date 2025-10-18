@@ -5,7 +5,7 @@ const UserArea = () => (
     <Button href="#" className="text-slate-300 text-sm">
       Entrar
     </Button>
-    <Button href="#" className="bg-blue-500 px-3 py-1 rounded-sm text-sm">
+    <Button href="/register" className="bg-blue-500 px-3 py-1 rounded-sm text-sm">
       Criar Conta
     </Button>
   </div>

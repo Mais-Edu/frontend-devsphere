@@ -5,6 +5,7 @@ import HomePage from "../pages/HomePage";
 import NotFoundPage from "../pages/NotFoundPage";
 import TestPage from "../pages/TestPage";
 import UserLayout from "../Layouts/UserLayout";
+import RegisterPage from "../pages/RegisterPage"
 
 const Paths = () => {
     return (
@@ -14,6 +15,7 @@ const Paths = () => {
                     <Route index element={<HomePage />} />
                     <Route path="/test" element={<TestPage />} />
                 </Route>
+                <Route path="/register" element={<RegisterPage />} />
                 <Route path="/user/" element={<UserLayout />}>
                 </Route>
                 <Route path="/*" element={<NotFoundPage />} />
